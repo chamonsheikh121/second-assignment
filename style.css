@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+body{
+font-family: 'Work Sans', sans-serif;
+}
+
+/* =====================navbar================== */
+nav img {
+    width: 20px;
+}
+
+.navbar {
+    display: flex;
+    margin: 40px 150px;
+    justify-content: space-between;
+
+}
+
+.nav-left {
+    display: flex;
+
+}
+
+.nav-left>h2 {
+    margin-left: 20px;
+}
+
+.nav-left>img {
+   width: 80px;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.follow-us-on{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #0b02232f;
+    justify-content: space-around;
+    padding: 0px 20px;
+    border-radius: 5px;
+
+}
+.nav-right a{
+    margin-right: 30px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.follow-us-on > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* ====================banner =============================== */
+
+.banner{
+    margin: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff9fc;
+}
+.banner img{
+    width: 100%;
+}
+
+.side-1 > h3{
+    font-size: 48px;
+    color: #0B0223;
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+}
+.side-1 > h2 {
+    font-size: 100px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+   font-weight: 800;
+   
+}
+.side-1 p{
+    font-size: 20px;
+}
+.button-primary{
+    padding: 20px 40px;
+    margin-right: 10px;
+    border-radius: 48px;
+    border: none;
+    background-color: rgba(255, 0, 200, 0.644);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.other{
+    background-color: rgb(2, 209, 209);
+}
+
+/* ====================we are gamer section =====================*/
+.gamercontainer{
+    margin: 0px 150px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #fff9fc;
+
+}
+.gamercontainerpart-1{
+    width: 100%;
+}
+.gamercontainerpart-1 img{
+    width: 100%;
+}
+
+.gamercontainerpart-2{
+    width:100%;
+    text-align:end;
+}
+.gamercontainer-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    
+}
+.gamercontainer-description{
+    color: #534C64;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.last-descrip{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.gamercontainerpart-2 span{
+    color:#534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* ==================online games============== */
+.Ogames-container{
+    text-align: center;
+    margin-left: 0px 150px;
+}
+.Ogames-container h3{
+    font-size: 48px;
+    margin-top: 120px;
+    margin-bottom:0;
+}
+.Ogames-container > p {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color:#534C64;
+}
+.cards{
+    margin: 0px 150px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: start;
+}
+.cards img{
+    width: 100%;
+}
+.card p{
+    text-align: start;
+}
