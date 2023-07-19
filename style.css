@@ -238,10 +238,19 @@ nav img {
 
 
 }
+.another .card-img:hover{
+    outline: 10px solid rgb(255, 106, 106);
+    border-radius: 25px;
+}
+.playoption img{
+   
+    height: 120px;
+}
 .another:hover .playoption{
     opacity: 1;
-    width:80px;
+    width:150px;
     height: 80px;
+    z-index: 1;
 }
 .another:hover .card-img{
     filter:brightness(30%) ;
@@ -250,7 +259,7 @@ nav img {
 .playoption {
     position: absolute;
     top: 30%;
-    left: 35%;
+    left: 29%;
     opacity: 0;
 }
 
