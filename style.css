@@ -478,4 +478,28 @@ footer {
         flex-wrap: wrap;
         gap: 10px;
     }
+    .copyright{
+        font-size: 10px;
+    }
+    .ruls{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .footer-icons{
+        flex-wrap: wrap;
+    }
+}
+
+/* =================mid level============= */
+@media screen and (min-width:576px) and (max-width: 992px){
+    .banner, .gamercontainer, .cards, .playinstant, .playinstant-content, .gamestypes {
+        padding: 100px;
+        margin: 10px;
+    }
+    .button-primary{
+        margin-bottom: 20px;
+    }
+    .side-1{
+        width: 70%;
+    }
 }
