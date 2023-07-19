@@ -49,7 +49,7 @@ nav img {
     align-items: center;
     background-color: #0b02232f;
     justify-content: space-between;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border-radius: 5px;
 
 }
@@ -240,10 +240,13 @@ nav img {
 }
 .another:hover .playoption{
     opacity: 1;
-    
-
+    width:80px;
+    height: 80px;
 }
-
+.another:hover .card-img{
+    filter:brightness(30%) ;
+    border: 5px soid red;
+}
 .playoption {
     position: absolute;
     top: 30%;
@@ -282,7 +285,7 @@ nav img {
 .playinstant {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     margin-right: 150px;
     padding-top: 50px;
 
@@ -290,8 +293,11 @@ nav img {
 
 .playinstant-content {
     text-align: center;
-
     margin-left: 400px;
+}
+.playinstant-content p{
+    width: 100%;
+    text-align: center;
 }
 
 .playinstant img {
@@ -420,4 +426,56 @@ footer {
 .ruls,
 .copyright {
     color: rgba(255, 255, 255, 0.60);
+}
+.hide{
+    display:none;
+}
+
+/* =====================media quries============= */
+@media screen and (max-width:576px){
+    .navbar, .nav-right , .gamercontainer, .cards , .playinstant, .gamestypes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner, .gamercontainer, .cards, .playinstant, .playinstant-content, .gamestypes {
+        margin: 10px;
+    }
+    .nav-right{
+        gap: 20px;
+    }
+    .gamestypes{
+        margin-top: 100px;
+        flex-wrap: nowrap;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+   
+    .gamercontainerpart-2{
+        text-align: center;
+    
+    }
+    .Ogames-container h3{
+        width: 400px;
+        margin: 50px auto;
+    }
+    .playinstant-content{
+        text-align: center;
+    }
+    .playinstant{
+        align-items: center;
+        
+    }
+    .mini-img {
+        width: 200px;
+        height: 220px;
+        bottom: -10%;
+    }
+    .playnow{
+        padding: 10px;
+    }
+    .footer-items{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
