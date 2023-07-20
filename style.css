@@ -518,7 +518,7 @@ footer {
         text-align: center;
         
     }
-    .navbar{
+    .navbar, .nav-right{
         flex-direction: 
         column;
     }
