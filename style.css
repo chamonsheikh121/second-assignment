@@ -511,4 +511,18 @@ footer {
     .side-1{
         width: 70%;
     }
+    .footer-items, .playinstant, .cards, .gamercontainer{
+        flex-wrap:wrap;
+    }
+    .gamercontainerpart-2, .playinstant-content{
+        text-align: center;
+        
+    }
+    .navbar{
+        flex-direction: 
+        column;
+    }
+    .banner{
+        flex-wrap: wrap-reverse;
+    }
 }
